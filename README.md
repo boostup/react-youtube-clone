@@ -1,12 +1,22 @@
 ## Roadmap
 
+- change favicon and page title
+
 ### Functionalities
+
+- Video Item component :
+
+  - display video duration
 
 - Header bar : [Logo][search] [Avatar(w/ menu to access playlists)]
 - Playlists :
-  - CRUD PL
-  - add/delete/drag-to-change-position entries
+  - CRUD for Playlist
+  - add/delete/drag-to-change-position entries in playlist
+- left panel :
+  - displays list of playlists
 - Toolbar (under video player) : [Share][add-to-playlist btn] [Like Btn]
+- Video Download ???
+- Google login ??? (for user playlists recovery)
 
 ### Responsive design : mobile first
 
