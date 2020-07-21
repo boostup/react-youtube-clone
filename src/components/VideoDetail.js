@@ -1,6 +1,6 @@
 import React from "react";
-
 import { Paper, Typography } from "@material-ui/core";
+import "./responsive-iframe.css";
 
 const VideoDetail = ({ video }) => {
   if (!video) return <div>Loading...</div>;
@@ -8,16 +8,19 @@ const VideoDetail = ({ video }) => {
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
   return (
-    <React.Fragment>
-      <Paper elevation={6} style={{ height: "70%" }}>
-        <iframe
-          frameBorder="0"
-          height="100%"
-          width="100%"
-          title="Video Player"
-          src={videoSrc}
-        />
-      </Paper>
+    <div>
+      <div className="video-player-wrapper">
+        <div className="video-player">
+          <iframe
+            frameBorder="0"
+            height="100%"
+            width="100%"
+            title="Video Player"
+            src={videoSrc}
+          />
+        </div>
+      </div>
+
       <Paper elevation={6} style={{ padding: "15px" }}>
         <Typography variant="h4">{video.snippet.title}</Typography>
         <Typography variant="subtitle1">
@@ -25,7 +28,7 @@ const VideoDetail = ({ video }) => {
         </Typography>
         <Typography variant="subtitle2">{video.snippet.description}</Typography>
       </Paper>
-    </React.Fragment>
+    </div>
   );
 };
 

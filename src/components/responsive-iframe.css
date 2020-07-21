@@ -1,0 +1,44 @@
+/* Source
+**********
+Embed Responsive Videos with YouTube iframe and Video Tag
+https://www.youtube.com/watch?v=StBj0vHMesk
+
+*/
+
+/* HTML Markup
+***************
+      <div className="video-player-wrapper">
+        <div className="video-player">
+          <iframe
+            frameBorder="0"
+            height="100%"
+            width="100%"
+            title="Video Player"
+            src={videoSrc}
+          />
+        </div>
+      </div>
+*/
+
+.video-player-wrapper {
+  width: 100%;
+  /* max-width: 800px; */
+  margin: auto;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-player iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
