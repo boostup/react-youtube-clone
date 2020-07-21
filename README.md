@@ -1,7 +1,5 @@
 ## Roadmap
 
-- change favicon and page title
-
 ### Functionalities
 
 - Video Item component :
