@@ -36,7 +36,9 @@ const Header = (props) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleMenuClose = () => {
+  const handleMenuClose = (e) => {
+    const path = e.target.getAttribute("path");
+    if (path) props.history.push(e.target.getAttribute("path"));
     setAnchorEl(null);
   };
 
@@ -79,7 +81,9 @@ const Header = (props) => {
             open={Boolean(anchorEl)}
             onClose={handleMenuClose}
           >
-            <MenuItem onClick={handleMenuClose}>Playlist</MenuItem>
+            <MenuItem onClick={handleMenuClose} path="/playlists">
+              Playlist
+            </MenuItem>
             <MenuItem onClick={handleMenuClose}>
               My account (not implemented)
             </MenuItem>
