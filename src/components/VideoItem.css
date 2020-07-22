@@ -1,0 +1,19 @@
+.VideoItem_row {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.VideoItem_thumbnail {
+  margin-right: 20px;
+  position: relative;
+}
+
+.VideoItem_duration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 2ch;
+  width: auto;
+  background: white;
+}

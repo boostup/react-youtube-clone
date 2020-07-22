@@ -1,20 +1,23 @@
 import React from "react";
-
 import { Grid, Paper, Typography } from "@material-ui/core";
 
+import "./VideoItem.css";
+
 const VideoItem = ({ video, onVideoSelect }) => {
+  const { snippet, contentDetails } = video;
+
   return (
     <Grid item xs={12}>
-      <Paper
-        style={{ display: "flex", alignItems: "center", cursor: "pointer" }}
-        onClick={() => onVideoSelect(video)}
-      >
-        <img
-          style={{ marginRight: "20px" }}
-          alt="thumbnail"
-          src={video.snippet.thumbnails.medium.url}
-        />
-        <Typography variant="subtitle1">{video.snippet.title}</Typography>
+      <Paper className="VideoItem_row" onClick={() => onVideoSelect(video)}>
+        <div className="VideoItem_thumbnail">
+          <img alt="thumbnail" src={snippet.thumbnails.medium.url} />
+          <span className="VideoItem_duration">{contentDetails.duration}</span>
+        </div>
+
+        <div className="VideoItem_details-panel">
+          <Typography variant="subtitle1">{snippet.title}</Typography>
+          <Typography variant="subtitle2">{snippet.description}</Typography>
+        </div>
       </Paper>
     </Grid>
   );

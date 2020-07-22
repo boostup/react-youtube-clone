@@ -1,0 +1,82 @@
+https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=XkvrHQNmigs,WV6u_6ZNWkQ,9207OppzJU0,HjToX1WWE3w,68O6eOGAGqA&key=AIzaSyCf_JBCgYoPAl2TtTo-gLZ6dyzfhVJ0dno
+
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "IZ6K3xvPgHSWXKhtevvD2h3JZRE",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "d5j7JtW9UWtWtTur38eC9nAcqjU",
+      "id": "XkvrHQNmigs",
+      "contentDetails": {
+        "duration": "PT21M57S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "5nA--DARaLyyf6md1Gxtk0x1NTo",
+      "id": "WV6u_6ZNWkQ",
+      "contentDetails": {
+        "duration": "PT18M9S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ObpYnX0evr1qBnI-x3Z7Z8s4yj8",
+      "id": "9207OppzJU0",
+      "contentDetails": {
+        "duration": "PT4M37S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "9Il1iC5nr991RfCFir9-JgTlo0A",
+      "id": "HjToX1WWE3w",
+      "contentDetails": {
+        "duration": "PT17M29S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "5BCEVt--ZQVxtZR96Am3Oa9bkCo",
+      "id": "68O6eOGAGqA",
+      "contentDetails": {
+        "duration": "PT17M14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 5,
+    "resultsPerPage": 5
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "b1J9USU0vpny_6wnSWj98vpfQ7A",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "FR",
+  "pageInfo": {
+    "totalResults": 156097,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "niaE4bki98NiGP1fEHaAaqgB4vM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D_mUq65Zruc"
+      },
+      "snippet": {
+        "publishedAt": "2015-05-13T19:10:33Z",
+        "channelId": "UCv9MOepx-Uzu9xM1I09PNAA",
+        "title": "Module 6 Formation etre Auto-thérapeute : rester centré",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D_mUq65Zruc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D_mUq65Zruc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D_mUq65Zruc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emmanuelle Ruiz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-05-13T19:10:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0aZsKkTBEZfyiOFT-3ovTf1MxL0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D46egcwv0B4"
+      },
+      "snippet": {
+        "publishedAt": "2015-03-28T13:40:52Z",
+        "channelId": "UCv9MOepx-Uzu9xM1I09PNAA",
+        "title": "Extrait module 2 Formation Etre auto thérapeute www.emmanuelleruiz.com",
+        "description": "Pour suivre la formation en entier cliquez sur le lien ci-dessous: http://emmanuelleruiz.com/formation-coaching-therapie/ Vivre Joyeusement sa Mission de Vie ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D46egcwv0B4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D46egcwv0B4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D46egcwv0B4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emmanuelle Ruiz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-03-28T13:40:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5kEQ4n1c0sE9y1KyeX7p1mkMptk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ixOYD1jOusY"
+      },
+      "snippet": {
+        "publishedAt": "2015-01-30T12:05:26Z",
+        "channelId": "UCv9MOepx-Uzu9xM1I09PNAA",
+        "title": "Mission de vie: Formation &quot;Etre auto-thérapeute&quot; c&#39;est quoi ?!  pour qui ?!",
+        "description": "La Formation commence le 4 Mars 2015 Les places sont limitées Pour réserver votre place et vous ouvrir au changement, ci dessous le lien pour vous inscrire ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ixOYD1jOusY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ixOYD1jOusY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ixOYD1jOusY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emmanuelle Ruiz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-01-30T12:05:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "n6B2M84hfVFijnQBIMRnrdA8WME",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8ZVHlNuaYno"
+      },
+      "snippet": {
+        "publishedAt": "2015-01-21T21:36:09Z",
+        "channelId": "UCv9MOepx-Uzu9xM1I09PNAA",
+        "title": "Conférence-atelier en direct &quot; Comment être Auto - Thérapeute &quot; ?",
+        "description": "Comment réaliser soi même son auto-thérapie ? Comment apprendre et utiliser des outils de Libérations Emotionnelles pour soi et son entourage ? Cours + ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8ZVHlNuaYno/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8ZVHlNuaYno/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8ZVHlNuaYno/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emmanuelle Ruiz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-01-21T21:36:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gyYI7EscdquvWU43gc74pz4DTgw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_UKNxmpmwOk"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-15T15:30:10Z",
+        "channelId": "UCnCmDX48HwsAemk8fl8SFVA",
+        "title": "apprentissage-autonomie-auto-guerison : avec ou sans therapeute",
+        "description": "Dois-je continuer mon développement personnel et spirituel avec ous sans mon thérapeute quand je commence à faire des séances d'auto-guérisons ?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_UKNxmpmwOk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_UKNxmpmwOk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_UKNxmpmwOk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emmanuel Ferran",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-15T15:30:10Z"
+      }
+    }
+  ]
+}
