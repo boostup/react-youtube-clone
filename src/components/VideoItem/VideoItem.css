@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  align-items: flex-start;
 }
 
 .VideoItem_thumbnail {
@@ -11,9 +12,10 @@
 
 .VideoItem_duration {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   right: 0;
-  height: 2ch;
   width: auto;
-  background: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.2rem;
+  color: white;
 }

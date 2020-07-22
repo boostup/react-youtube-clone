@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   AppBar,
@@ -10,7 +11,7 @@ import {
 } from "@material-ui/core";
 import { AccountCircle } from "@material-ui/icons";
 import MenuIcon from "@material-ui/icons/Menu";
-import SearchBar from "./SearchBar";
+import SearchBar from "../SearchBar";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -19,24 +20,27 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     display: "none",
+    cursor: "pointer",
     [theme.breakpoints.up("sm")]: {
       display: "block",
     },
   },
 }));
 
-export default (props) => {
+const Header = (props) => {
   const classes = useStyles();
 
   const [anchorEl, setAnchorEl] = React.useState(null);
 
-  const handleClick = (event) => {
+  const handleMenuClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
+  const handleMenuClose = () => {
     setAnchorEl(null);
   };
+
+  const goHome = () => props.history.push("/");
 
   return (
     <div className={classes.grow}>
@@ -50,7 +54,7 @@ export default (props) => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" className={classes.title} onClick={goHome}>
             YouTube
           </Typography>
 
@@ -63,7 +67,7 @@ export default (props) => {
             aria-label="account of current user"
             aria-controls={null}
             aria-haspopup="true"
-            onClick={handleClick}
+            onClick={handleMenuClick}
             color="inherit"
           >
             <AccountCircle />
@@ -73,16 +77,20 @@ export default (props) => {
             anchorEl={anchorEl}
             keepMounted
             open={Boolean(anchorEl)}
-            onClose={handleClose}
+            onClose={handleMenuClose}
           >
-            <MenuItem onClick={handleClose}>Playlist</MenuItem>
-            <MenuItem onClick={handleClose}>
+            <MenuItem onClick={handleMenuClose}>Playlist</MenuItem>
+            <MenuItem onClick={handleMenuClose}>
               My account (not implemented)
             </MenuItem>
-            <MenuItem onClick={handleClose}>Logout(not implemented)</MenuItem>
+            <MenuItem onClick={handleMenuClose}>
+              Logout(not implemented)
+            </MenuItem>
           </Menu>
         </Toolbar>
       </AppBar>
     </div>
   );
 };
+
+export default withRouter(Header);

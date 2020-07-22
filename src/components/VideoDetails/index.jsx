@@ -1,9 +1,9 @@
 import React from "react";
 import { Paper, Typography } from "@material-ui/core";
-import "./responsive-iframe.css";
-import "./VideoDetail.css";
+import "../responsive-media.css";
+import "./VideoDetails.css";
 
-const VideoDetail = ({ video }) => {
+const VideoDetails = ({ video }) => {
   if (!video) return <div>Loading...</div>;
 
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
@@ -33,4 +33,4 @@ const VideoDetail = ({ video }) => {
   );
 };
 
-export default VideoDetail;
+export default VideoDetails;

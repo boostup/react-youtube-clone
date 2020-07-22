@@ -63,7 +63,6 @@ class SearchBar extends Component {
   };
 
   handleChange = (e) => {
-    console.log("HANDLE CHANGE");
     this.setState({ searchTerm: e.target.value });
   };
 
