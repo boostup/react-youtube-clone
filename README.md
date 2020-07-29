@@ -15,6 +15,7 @@
 - Toolbar (under video player) : [Share][add-to-playlist btn] [Like Btn]
 - Video Download ???
 - Google login ??? (for user playlists recovery)
+- Search current video comments
 
 ### Responsive design : mobile first
 
