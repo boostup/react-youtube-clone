@@ -2,25 +2,35 @@
 
 ### Functionalities
 
-- Video Item component :
+#### Video Item component
 
-  - display video duration
+  - [x] display video duration
 
-- Header bar : [Logo][search] [Avatar(w/ menu to access playlists)]
-- Playlists :
-  - CRUD for Playlist
-  - add/delete/drag-to-change-position entries in playlist
-- left panel :
-  - displays list of playlists
-- Toolbar (under video player) : [Share][add-to-playlist btn] [Like Btn]
-- Video Download ???
-- Google login ??? (for user playlists recovery)
-- Search current video comments
+#### Header bar (| Logo | Search textfield | Avatar (w/ menu to access playlists))
+ - [x] Logo
+ - [x] Search textfield
+ - [ ] Avatar + menu to access playlists (voir [ce POC](https://github.com/boostup/react-google-login-example) pour intégrer dans cette APP)
+ - [ ] from burger menu to full header ?
 
-### Responsive design : mobile first
+#### Playlists
+  - [ ] CRUD
+  - [ ] add, delete, drag to change position of entries in a playlist, or even accross playlist
+  
+#### Left panel (sliding)
+  - [ ] displays list of playlists
 
-- Header : from burger menu to full header
-- Video list must be under the Video player and on the side on larger screens
+#### Toolbar (under video player)
+  - [ ] | Share | add-to-playlist btn | Like Btn |
+  - [ ] Video Download ???
+  - [x] Google login ??? (for user playlists recovery)
+  - [ ] Search current video comments
+  - [ ] add a bookmark + comment on a timestamp
+
+#### Responsive design
+  - [x] mobile first
+
+#### Video List
+- [x] Video list must be under the Video player and on the side on larger screens
 
 ## Available Scripts
 
