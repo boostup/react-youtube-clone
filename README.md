@@ -9,6 +9,7 @@
 #### Header bar (| Logo | Search textfield | Avatar (w/ menu to access playlists))
  - [x] Logo
  - [x] Search textfield
+ - [x] Google login ??? (for user playlists recovery)
  - [ ] Avatar + menu to access playlists (voir [ce POC](https://github.com/boostup/react-google-login-example) pour intégrer dans cette APP)
  - [ ] from burger menu to full header ?
 
@@ -22,7 +23,6 @@
 #### Toolbar (under video player)
   - [ ] | Share | add-to-playlist btn | Like Btn |
   - [ ] Video Download ???
-  - [x] Google login ??? (for user playlists recovery)
   - [ ] Search through current video : 
         - [ ] comments
         - [ ] subtitles (API for srt files ?)        
