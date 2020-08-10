@@ -23,7 +23,9 @@
   - [ ] | Share | add-to-playlist btn | Like Btn |
   - [ ] Video Download ???
   - [x] Google login ??? (for user playlists recovery)
-  - [ ] Search current video comments
+  - [ ] Search through current video : 
+        - [ ] comments
+        - [ ] subtitles (API for srt files ?)        
   - [ ] add a bookmark + comment on a timestamp
 
 #### Responsive design
