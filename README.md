@@ -16,6 +16,7 @@
 #### Playlists
   - [ ] CRUD
   - [ ] add, delete, drag to change position of entries in a playlist, or even accross playlist
+  - [ ] search for videos by name within playlist
   
 #### Left panel (sliding)
   - [ ] displays list of playlists
